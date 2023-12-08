@@ -14,20 +14,6 @@ function App() {
 			<Router>
         <NeoNavBarAndSideMenu tk={tk} />
 				<div>
-					<ul>
-						<li>
-							<Link to="/">Home</Link>
-						</li>
-						<li>
-							<Link to="/about">About</Link>
-						</li>
-						<li>
-							<Link to="/dashboard">Dashboard(v3)</Link>
-						</li>
-					</ul>
-
-					<hr />
-
 					{/*
 						A <Switch> looks through all its children <Route>
 						elements and renders the first one whose path

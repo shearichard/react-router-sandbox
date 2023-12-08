@@ -28,9 +28,9 @@ function NeoNavBarAndSideMenu(props) {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="issuevc">Issue Verifiable Credential</Nav.Link>
-                  <Nav.Link href="presentproof">Present Verifiable Credential</Nav.Link>
-                  <Nav.Link href="verifyproof">Verify Verifiable Credential</Nav.Link>
+                  <Nav.Link href="">Home</Nav.Link>
+                  <Nav.Link href="about">About</Nav.Link>
+                  <Nav.Link href="dashboard">Dashboard(v5)</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

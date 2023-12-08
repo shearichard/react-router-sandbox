@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import {Link} from 'react-router-dom';
 
 //{[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
 //<Nav.Link href="webcamswitchertest">WebCam Testbed (Dev Only)</Nav.Link>
@@ -28,9 +29,9 @@ function NeoNavBarAndSideMenu(props) {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="">Home</Nav.Link>
-                  <Nav.Link href="about">About</Nav.Link>
-                  <Nav.Link href="dashboard">Dashboard(v5)</Nav.Link>
+                  <Nav.Link as={Link} to="/">Home</Nav.Link>
+                  <Nav.Link as={Link} to="/about">About</Nav.Link>
+                  <Nav.Link as={Link} to="/dashboard">Dashboard(v5)</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

@@ -9,10 +9,13 @@ import NeoNavBarAndSideMenu from './components/NeoNavBarAndSideMenu.js';
 import './App.css';
 
 function App() {
+	//
+	//<NeoNavBarAndSideMenu tk={tk} />
 		const tk="NOT ACTUALLY A TOKEN"
 		return (
+			<>
 			<Router>
-        <NeoNavBarAndSideMenu tk={tk} />
+				<NeoNavBarAndSideMenu tk={tk} />
 				<div>
 					{/*
 						A <Switch> looks through all its children <Route>
@@ -34,6 +37,7 @@ function App() {
 					</Switch>
 				</div>
 			</Router>
+			</>
 		);
 }
 // This site has 3 pages, all of which are rendered
